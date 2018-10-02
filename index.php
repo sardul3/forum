@@ -36,7 +36,7 @@
 
 
 <?php
-$pdo = new PDO("mysql:host=localhost;dbname=msgs", 'root', '');
+$pdo = new PDO("mysql:host=nt71li6axbkq1q6a.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=zmmxmmbm3wzookhe", 'rw2t46ag8krrpdpa', ' zx5bkp1n0lwxyubi');
 $sql_retrive = "select * from message";
 $result = $pdo->query($sql_retrive);
 
