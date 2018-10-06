@@ -36,7 +36,7 @@
 
 
 <?php
-$pdo = new PDO("mysql:host=nt71li6axbkq1q6a.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=zmmxmmbm3wzookhe", 'rw2t46ag8krrpdpa', ' zx5bkp1n0lwxyubi');
+$pdo = new PDO("mysql://b6f2b30ec08555:6c63d71f@us-cdbr-iron-east-01.cleardb.net/heroku_45f6e70ea9a7def?reconnect=true", 'b6f2b30ec08555', '6c63d71f');
 $sql_retrive = "select * from message";
 $result = $pdo->query($sql_retrive);
 
