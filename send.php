@@ -12,7 +12,7 @@ $pdo->query($sql_insert);
 
 
 
- header("Location: http://localhost/chatjs/index.php");
+ header("Location: https://crew-talk.herokuapp.com/");
 
 }
 
